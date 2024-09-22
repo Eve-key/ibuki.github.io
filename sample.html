@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Color Example</title>
+    <style>
+      /* スタイルを追加することもできます */
+      #text {
+        font-size: 24px;
+        margin: 20px;
+      }
+      #rotating-image {
+        transition: transform 1s; /* 回転のアニメーション */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="loader">
+      <h2>loading</h2>
+    </div> -->
+    <!-- JavaScriptファイルを読み込む -->
+    <script src="sample.js"></script>
+    <p id="text">このテキストの色を変えます。</p>
+    <button onclick="setBlue()" id="blue">青色にする</button>
+    <button onclick="setGreen()">緑色にする</button>
+    <button onclick="start()">START</button>
+    <button onclick="stop()">STOP</button>
+    <button onclick="reset()">RESET</button>
+    <img id="image" src="./シャロ.png" />
+  </body>
+  <footer class="footer">
+    <p class="copyright">© 2023 Example Inc. All Rights Reserved.</p>
+    <ul class="md-flex">
+      <li><a href="#about">About</a></li>
+      <li><a href="#">サイトマップ</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+    </ul>
+  </footer>
+</html>
